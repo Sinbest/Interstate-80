@@ -654,7 +654,7 @@
 	desc = "A green beret, standard issue for all commissioned NCR Officers."
 	icon_state = "ncr_officer_beret"
 	item_state = "ncr_officer_beret"
-	armor = list("melee" = 15, "bullet" = 60, "laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 15, "bullet" = 6, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/head/beret/ncr/ncr_medic
 	name = "NCR medical beret"
@@ -667,7 +667,7 @@
 	desc = "A grey beret, issued to troopers that have passed Sapper School."
 	icon_state = "ncr_sapper_beret"
 	item_state = "ncr_sapper_beret"
-	armor = list("melee" = 15, "bullet" = 60, "laser" = 40, "energy" = 20, "bomb" = 80, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/head/beret/ncr/ncr_sof
 	name = "NCR SOF beret"
@@ -680,14 +680,21 @@
 	desc = "A tan peaked cap with silver pin, designated for enlisted NCRA personnel."
 	icon_state = "ncr_dresscap"
 	item_state = "ncr_dresscap"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/head/beret/ncr_codresscap
 	name = "NCR peaked cap"
 	desc = "A tan peaked cap with golden pin, designated for commissioned NCRA personnel."
 	icon_state = "ncr_codresscap"
 	item_state = "ncr_codresscap"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_fiber_helmet
+	name = "NCR fiber helmet"
+	desc = "A soft helmet made out of pressed plant material that was briefly issued by the NCR Army. Probably won't stop bullets."
+	icon_state = "ncr_fiber_helmet"
+	item_state = "ncr_fiber_helmet"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 //NCR Ranger
 
@@ -696,7 +703,7 @@
 	desc = "A brown beret, issued to members of the NCR Recon Rangers."
 	icon_state = "scoutberet"
 	item_state = "scoutberet"
-	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
 
 /obj/item/clothing/head/beret/ncr_recon_ranger/Initialize()

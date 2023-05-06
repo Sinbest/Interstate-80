@@ -263,6 +263,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/ammo_box/magazine/garand308 = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 1,
+		/obj/item/clothing/head/f13/ncr
 		)
 
 /datum/outfit/job/ncr/f13lieutenant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -460,11 +461,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	display_order = JOB_DISPLAY_ORDER_REPRESENTATIVE
 	outfit = /datum/outfit/job/ncr/f13representative
 
-	loadout_options = list(
+	/*loadout_options = list(
 		/datum/outfit/loadout/repbrahminbaron,
 		/datum/outfit/loadout/repexecutive,
-		/*datum/outfit/loadout/repambassador*/
-		)
+		/datum/outfit/loadout/repambassador
+		)*/
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -478,18 +479,18 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13representative
 	name = "NCR Representative"
 	jobtype	= /datum/job/ncr/f13representative
-	uniform = /obj/item/clothing/under/suit/tan
+	uniform = /obj/item/clothing/under/suit/burgundy
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id/dogtag/ncrrep
-	neck = /obj/item/storage/belt/holster/legholster
-	l_hand = /obj/item/storage/briefcase/crafted
+	neck = /obj/item/storage/belt/holster
+	l_hand = /obj/item/storage/briefcase
 	backpack = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 2,
 		/obj/item/storage/bag/money/small/ncr = 2,
 		)
-
+/*
 /datum/outfit/loadout/repbrahminbaron
 	name = "Brahmin Baron"
 	suit = /obj/item/clothing/under/suit/burgundy
@@ -512,7 +513,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/briefcase = 1,
 		)
 
-/*datum/outfit/loadout/repambassador
+/datum/outfit/loadout/repambassador
 	name = ""
 	suit = /obj/item/clothing/under/suit_jacket/tan
 	shoes = /obj/item/clothing/shoes/laceup
@@ -898,7 +899,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	flag = F13MP
 	total_positions = 2
 	spawn_positions = 2
-	description = "You are NOT allowed to participate in front-line combat outside the base/embassy. You are tasked with the supervision of the NCRA to maintain internal order and disciplice and to prevent any warcrimes from happening."
+	description = "As an MP you should avoid engaging directly in combat with the enemy whenever possible, but you are allowed to act as a rear unit to prevent disorder. You are tasked with the supervision of the NCRA to maintain internal order, uphold the chain of command, ensure military regulations being followed, and upholding NCR and military law. Additionally, you are charged with the ambassador's personal protection, ensure that no harm is brought to him."
 	supervisors = "NCRA Officers, the Ambassador"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_TROOPER
@@ -909,7 +910,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	jobtype	= /datum/job/ncr/f13mp
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	neck = /obj/item/storage/belt/holster/legholster
-	accessory = /obj/item/clothing/accessory/armband/black
+	accessory = /obj/item/clothing/accessory/ncr/SGT
 	glasses	= /obj/item/clothing/glasses/sunglasses/big
 	head = /obj/item/clothing/head/f13/ncr/steelpot_mp
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
@@ -1049,7 +1050,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/binoculars = 1,
 		)
 
-/datum/outfit/loadout/corporalcqc		
+/datum/outfit/loadout/corporalcqc
 	name = "Combat Engineer"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	suit_store = /obj/item/gun/ballistic/shotgun/hunting
@@ -1063,7 +1064,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/clothing/glasses/welding = 1,
 		)
 
-/datum/outfit/loadout/corporalcommand	
+/datum/outfit/loadout/corporalcommand
 	name = "Combat Medic"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	suit_store = /obj/item/gun/ballistic/automatic/m1carbine

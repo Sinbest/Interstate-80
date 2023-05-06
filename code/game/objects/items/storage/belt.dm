@@ -1075,6 +1075,19 @@
 		to_chat(user, "<span class='notice'>There is nothing left in the quiver.</span>")
 	return TRUE
 
+/obj/item/storage/belt/holster/cross_belt
+	name = "sam browne belt"
+	desc = "A belt traditionally worn by military officers. Has a holster attached."
+	icon_state = "holster_cross_belt"
+	item_state = "holster_cross_belt"
+
+/obj/item/storage/belt/holster/cross_belt/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 6
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
+
+
 //Bone Arrow Quiver
 /obj/item/storage/belt/tribe_quiver/bone
 	name = "hunters quiver"

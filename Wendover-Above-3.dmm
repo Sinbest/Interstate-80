@@ -24242,7 +24242,13 @@
 /obj/effect/spawner/lootdrop/f13/armor/clothes/prewar,
 /obj/effect/spawner/lootdrop/f13/armor/clothes/prewar,
 /obj/effect/spawner/lootdrop/f13/armor/clothes/prewar,
-/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/head/f13/ncr/ncr_fiber_helmet,
+/obj/item/storage/belt/holster/cross_belt,
+/obj/item/clothing/under/f13/ncr/colonial,
+/obj/item/clothing/suit/toggle/armor/f13/ncrarmor/colonial_jacket,
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "leather combat boots"
+	},
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
 	name = "SacTown Barrel-Aged Whiskey";
 	desc = "Known for their famous slogan, 'Do you have the Sac for it?'"

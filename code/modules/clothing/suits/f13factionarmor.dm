@@ -492,14 +492,22 @@
 	desc = "A brown dress uniform jacket intended for enlisted NCRA personnel."
 	icon_state = "ncr_dressjack"
 	item_state = "ncr_dressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack
 	name = "NCR dress jacket"
 	desc = "A brown dress uniform jacket for commissioned NCRA personnel."
 	icon_state = "ncr_codressjack"
 	item_state = "ncr_codressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/suit/toggle/armor/f13/ncrarmor/colonial_jacket
+	name = "safari jacket"
+	desc = "A lightweight cotton jacket in desert khaki."
+	icon_state = "colonial_jacket"
+	item_state = "colonial_jacket"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/treasurer
 
 /obj/item/clothing/suit/armor/f13/combat/ncr/mutant
 	name = "NCR mutant armor"
