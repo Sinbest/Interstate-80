@@ -501,3 +501,12 @@
 	heat_protection = HEAD
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 40)
+
+//Wendover
+
+/obj/item/clothing/suit/toggle/labcoat/f13/mb_host
+	name = "casino staff blazer"
+	desc = "A dark green blazer worn by the staff of the Montego Bay Casino & Resort. A small golden nametag bearing the name and job of the wearer is pinned to it."
+	icon_state = "mb_host_blazer"
+	item_state = "mb_host_blazer"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small

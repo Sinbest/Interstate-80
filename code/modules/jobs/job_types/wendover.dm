@@ -272,7 +272,7 @@ Mayor
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	ears = /obj/item/radio/headset/headset_wndranger
 	uniform = /obj/item/clothing/under/f13/cowboyt
-	
+
 	shoes = /obj/item/clothing/shoes/jackboots
 	l_pocket = /obj/item/storage/bag/money/small/den
 	backpack_contents = list(
@@ -509,7 +509,7 @@ Mayor
 		/obj/item/shovel/spade = 1, \
 		/obj/item/gun/ballistic/automatic/pistol/n99, \
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 3)
-	
+
 
 /datum/outfit/job/wendover/f13rancher/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -677,21 +677,20 @@ Mayor
 /datum/outfit/job/wendover/f13montegobayhost
 	name = "Montego Bay Host"
 	jobtype = /datum/job/wendover/f13montegobayhost
-
 	id = /obj/item/card/id/dogtag/town
+
 	ears = /obj/item/radio/headset/headset_montegobay
-	backpack = /obj/item/storage/backpack/satchel/explorer
-	satchel = /obj/item/storage/backpack/satchel/explorer
-	uniform = /obj/item/clothing/under/rank/security/detective/grey
-	suit = /obj/item/clothing/suit/toggle/lawyer/black
+	backpack = /obj/item/storage/backpack/satchel/leather
+	satchel = /obj/item/storage/backpack/satchel/leather
+	uniform = /obj/item/clothing/under/f13/mb/host
+	suit = /obj/item/clothing/suit/toggle/labcoat/f13/mb_host
 	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	l_pocket = /obj/item/storage/bag/money/small/banker
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(
-		/obj/item/lighter/gold = 1,
-		/obj/item/clothing/mask/cigarette/pipe = 1,
-		/obj/item/storage/fancy/cigarettes/cigars = 1,
-		/obj/item/storage/fancy/cigarettes/cigpack_greytort = 1,
+		/obj/item/lighter = 1,
+		/obj/item/pen = 1,
+		/obj/item/clipboard  = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 1
 		)
 
@@ -724,17 +723,19 @@ Mayor
 /datum/outfit/job/wendover/f13montegobaystaff
 	name = "Montego Bay Staff"
 	jobtype = /datum/job/wendover/f13montegobaystaff
-
 	id = /obj/item/card/id/dogtag/town
+
 	ears = /obj/item/radio/headset/headset_montegobay
-	backpack = /obj/item/storage/backpack/satchel/explorer
+	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/storage/bag/money/small/settler
-	uniform = /obj/item/clothing/under/suit/waiter
+	uniform = /obj/item/clothing/under/f13/mb/staff
+	accessory = /obj/item/clothing/accessory/waistcoat/mb_staff
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(
 		/obj/item/lighter = 1,
-		/obj/item/pen/fountain = 1,
+		/obj/item/pen = 1,
+		/obj/item/clipboard  = 1,
 		/obj/item/storage/fancy/cracker_pack = 1,
 		/obj/item/melee/onehanded/knife/cosmicdirty = 1,
 		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
@@ -942,7 +943,7 @@ Mayor
 	suit = /obj/item/clothing/suit/jacket/flannel/red
 	uniform = /obj/item/clothing/under/pants/khaki
 	r_hand = /obj/item/gun/ballistic/rifle/hunting
-	backpack_contents = list(/obj/item/ammo_box/a308 = 2, 
+	backpack_contents = list(/obj/item/ammo_box/a308 = 2,
 	/obj/item/storage/bag/money/small/ncrenlisted = 1,
 	/obj/item/card/id/dogtag/town/ncr = 1,
 	)
@@ -1081,7 +1082,7 @@ Mayor
 	if(visualsOnly)
 		return
 
-	
+
 /datum/job/wendover/f13entrepreneur
 	title = "Entrepreneur"
 	flag = F13ENTREPRENEUR

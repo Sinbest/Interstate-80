@@ -675,6 +675,15 @@
 	desc = "A rank pin denominating its wearer as First Lieutenant within United States army."
 	icon_state = "firstlieutenantrank"
 
+//Montego Bay
+
+/obj/item/clothing/accessory/waistcoat/mb_staff
+	name = "casino staff vest"
+	desc = "A dark green vest worn by the staff of the Montego Bay Casino & Resort. A small golden nametag bearing the name and job of the wearer is pinned to it."
+	icon_state = "mb_staff_vest"
+	item_state = "mb_staff_vest"
+	minimize_when_attached = FALSE
+
 //donator
 /obj/item/clothing/accessory/cia_badge
 	name = "CIA Badge"

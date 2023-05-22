@@ -1044,11 +1044,11 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 
 /obj/effect/landmark/start/f13/montegobaydirector
 	name = "Montego Bay Host"
-	icon_state = "Barkeep"
+	icon_state = "MB Host"
 
 /obj/effect/landmark/start/f13/montegobaystaff
 	name = "Montego Bay Staff"
-	icon_state = "Barkeep"
+	icon_state = "MB Staff"
 
 /obj/effect/landmark/start/f13/kebab
 	name = "Bartender"

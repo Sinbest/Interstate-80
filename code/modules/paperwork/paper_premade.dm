@@ -247,8 +247,8 @@
 	Aquire Xander root,broc flowers,barrel cactii and bottles of Sarsaparilla.
 	<br>
 	Step 2
-	<br> 
-	Ferment Xander root,barrel cactii and broc flowers seperate. 
+	<br>
+	Ferment Xander root,barrel cactii and broc flowers seperate.
 	<br>
 	<b>Step 3
 	<br>
@@ -533,3 +533,53 @@ E/0.33,B4/0.5,A4,E/0.67,D/2,Fn/0.25,Gn,F,E/0.5<br>
 D,C,E/0.5,D/0.5,A/0.25,F#/0.5,G#/0.5,B5,A5<br>
 E/0.33,B4/0.5,A4,E/0.67,D/2,Fn/0.25,Gn,F,E/0.5<br>
 D,C,E/0.5,D/0.5,A/0.3<br><br></center>"}
+
+/obj/item/paper/fluff/NCRshutters
+	name = "letter to the lieutenant"
+	icon_state = "paper_words"
+	item_state = "paper_words"
+	info = {"
+	McCarthey Handyman Services
+	Wendover Township, Utah
+	Post Office Box 11
+	<br>
+	XXXXXry 2Xth, 2281
+	<br>
+	Commanding Officer
+	22nd Embassy Protection Platoon
+	N.C.R. Embassy in Wendover
+	<br>
+	Dear Lieutenant,
+	<br>
+	I completed my inspection of the shutters in youre building yesterday and I have determimed the following:
+	<br>
+	I probably cant fix them, and even if I could, it wouldnt be worth your time and money.
+	<br>
+	First off, theyre rusted to there frames, so I would have to yank them out, and that would remove even more of their surfase (if you dont know, rust IS the metal), and since I wasn't able to see the motors, I have no idea if you could open them again IF they closed.
+	<br>
+	Secondly, I would have to rewire them, the switches are busted and most of the wiring for them is fried, that would rewuire either ripping the walls apart or climbing in, and I won't do the latter.
+	<br>
+	Third and finally, from what I could see, they're heavyly damaged, they probably wouldn't provide much protection (I could even see some holes).
+	<br>
+	This doesn't mean it would be impossible, it's just that I wouldn't bother if I were you.
+	<br>
+	Sincerely,
+	<br>
+	Sam McCarthey
+	CEO, President, and Chairman of McCarthey Handyman Services
+	375 Wendover Blvd
+	"}
+
+/obj/item/paper/fluff/mccartheymissing
+	name = "note"
+	icon_state = "paper_words"
+	item_state = "paper_words"
+	info = {"
+	NOTICE:
+	<br>
+	This room is not to be opened until Mr. McCarthey's remains are recovered or he has been missing for at least six months.
+	<br>
+	Thank you,
+	<br>
+	Wendover Sheriff's Department
+	"}

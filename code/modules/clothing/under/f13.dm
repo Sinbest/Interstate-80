@@ -1918,3 +1918,33 @@
 	desc = "Funny little tracksuit for a funny little man."
 	icon_state = "tracksuit"
 	item_state = "tracksuit"
+
+///Wendover
+
+/obj/item/clothing/under/f13/mb/staff
+	name = "casino staff uniform"
+	desc = "Dark grey slacks and a white dress shirt with a green bowtie tied around the neck. A small tag attached to the inside of the collar reads 'if found please return to Montego Bay Casino'."
+	icon_state = "mb_staff_suit"
+	item_state = "mb_staff_suit"
+	can_adjust = TRUE
+
+/obj/item/clothing/under/f13/mb/staff/skirt
+	name = "casino staff uniform"
+	desc = "A dark grey skirt and white dress shirt with a green bowtie tied around the neck. A small tag attached to the inside of the collar reads 'if found please return to Montego Bay Casino'."
+	icon_state = "mb_staff_skirt"
+	item_state = "mb_staff_skirt"
+	can_adjust = TRUE
+
+/obj/item/clothing/under/f13/mb/host
+	name = "navy suit"
+	desc = "A white dress shirt with navy blue slacks and a red tie with a tie clip attached around the neck. A small tag attached to the inside of the collar reads 'if found please return to Montego Bay Casino'."
+	icon_state = "mb_host_suit"
+	item_state = "mb_host_suit"
+	can_adjust = TRUE
+
+/obj/item/clothing/under/f13/mb/host/skirt
+	name = "navy suit-skirt"
+	desc = "A white dress shirt with a navy blue skirt and a blue lavallière around the neck. A small tag attached to the inside of the collar reads 'if found please return to Montego Bay Casino'."
+	icon_state = "mb_host_skirt"
+	item_state = "mb_host_skirt"
+	can_adjust = TRUE
